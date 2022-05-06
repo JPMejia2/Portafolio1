@@ -1,0 +1,223 @@
+.menu{
+    width: 100%;
+    height: 8em;
+    text-align: end;
+    background-color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, .6);
+    z-index: 1;
+}
+
+.logo {
+    width: 16em;
+    margin-top: 0.5em;
+    margin-right: 10em;
+    float: left;
+    margin-left: 6em;
+}
+
+.menu_items{
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+    justify-content: flex-end;
+}
+
+.menu_items > li{
+    border-radius: 3px;
+    margin: 0;
+}
+
+.menu_items > li > a{
+    padding: 30px 23px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-transform: uppercase;
+    color: var(--negro);
+}
+
+.menu_items > li:hover{
+    background-color: rgba(0, 0, 0, .1);
+    transition: 0.4s;
+}
+
+.btn_menu{
+    margin-right: 30px;
+    font-size: 25px;
+    color: (--negro);
+    cursor: pointer;
+    display: none;
+}
+
+ul.show{
+    top:65px;
+        
+}
+
+.submenu{
+    position: absolute;
+    list-style: none;
+    background: var(--blanco);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, .25);
+    width: 16.1em;
+    transition: opacity 1.5s;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .6s;
+}
+
+.submenu li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    color: var(--negro);
+    font-size: 16px;
+}
+
+.sub1:hover{
+    background-color: rgba(0, 0, 0, .05);
+}
+
+.botonproyectos:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+/*****************************************************/
+
+
+@media screen and (max-width:952px){
+    .menu{
+        height: 65px;
+    }
+    .btn_menu{
+        display: inline-flex;
+    }
+    .menu_items{
+        position: fixed;
+        width: 100vw;
+        height: calc(100% - 65px);
+        background: var(--negro);
+        top: -100vh;
+        text-align: center;
+        transition: all .4s;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .menu_items li{
+        margin: 30px 0 0 0;
+        line-height: 65px;
+    }
+    .menu_items li:hover{
+        background-color: #1A1A1A;
+    }
+    .menu_items li a{
+        padding: 8px 23px;
+        font-size: 20px;
+        color: var(--blanco);
+    }
+    .menu_items li a:hover{
+        color: var(--gris);
+    }
+    .logo{
+        width: 10em;
+        padding-left: 0px;
+        margin-left: 3em;
+    }
+    .submenu{
+        display: none;
+    }
+}
+
+@media screen and (max-width:858px) and (orientation: landscape){
+    .menu_items li{
+        margin: 5px 0 0 0;
+    }
+    .menu_items{
+        overflow: scroll;
+        height: calc(100% - 65px);
+    }
+}
+
+/*************************************************************/
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: var(--negro);
+    padding-top: 40px;
+    color: var(--blanco);
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: var(--blanco);
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: var(--negro);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+}
+:root{
+    --blanco: #ffffff;
+    --gris: #F0F0F0;
+    --negro: #202020;
+    --griso: #7F7F7F;
+    --celeste: #8CE0E6;
+    --azul: #06004c;
+}
+
+body{
+    font-size: 10px;
+    width: 100%;
+}
+
+section{
+    width: 100%;
+    height: auto;
+}

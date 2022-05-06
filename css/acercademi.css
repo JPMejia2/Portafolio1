@@ -1,0 +1,501 @@
+body{
+    background-color:var(--gris);
+    height: auto;
+}
+
+.presentacion{
+    width: 100%;
+    height: 70em;
+    background-image: url(../img/acercademi2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    font-family: 'Bebas Neue', cursive;
+    display: inline-block;
+    margin-top: 1.5em;
+}
+
+
+.acercademi{
+    width: 100%;
+    height: 60em;
+    background-color: var(--blanco);
+    display: inline-block;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.cuadronegro{
+    width: 80%;
+    height: 97%;
+    max-width: 2000px;
+    background-color: var(--blanco);
+    box-shadow: -24px 20px 40px rgba(0, 0, 0, .3);
+    text-align: justify;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.cuadroacercademi{
+    width: 72%;
+    height: 19%;
+    padding: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;     
+}
+
+.text1{
+    color: var(--negro);
+    font-size: 5em;
+    float: left;
+    margin-top: 0.5em;
+    margin-left: 1em;
+    display: inline-block;
+}
+
+.cuadrotext{
+    width: 100%;
+    height: 78%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 1.9em;
+    box-sizing: border-box;
+    display: inline-block;
+    float: left;
+}
+
+.textoab{
+    line-height: 1.3em;
+}
+/*------------------------------------------------------------------------------------*/
+@media screen and (max-width:1848px){
+    .acercademi{
+        height: 63em;
+    }
+}
+@media screen and (max-width:1752px){
+    .presentacion{
+        height: 660px;
+    }
+}
+@media screen and (max-width:1745px){
+    .acercademi{
+        height: 66em;
+    }
+}
+@media screen and (max-width:1700px){
+    .presentacion{
+        height: 620px;
+    }
+}
+@media screen and (max-width:1677px){
+    .acercademi{
+        height: 69em;
+    }
+}
+@media screen and (max-width:1602px){
+    .acercademi{
+        height: 72em;
+    }
+}
+@media screen and (max-width:1582px){
+    .presentacion{
+        height: 580px;
+    }
+}
+@media screen and (max-width:1533px){
+    .acercademi{
+        height: 75em;
+    }
+}
+@media screen and (max-width:1482px){
+    .presentacion{
+        height: 530px;
+    }
+}
+@media screen and (max-width:1475px){
+    .acercademi{
+        height: 78em;
+    }
+    .cuadroacercademi{
+        height: 15%;
+    }
+}
+@media screen and (max-width:1372px){
+    .acercademi{
+        height: 81em;
+    }
+}
+@media screen and (max-width:1351px){
+    .presentacion{
+        height: 500px;
+    }
+}
+@media screen and (max-width:1325px){
+    .acercademi{
+        height: 85em;
+    }
+}
+@media screen and (max-width:1274px){
+    .presentacion{
+        height: 480px;
+    }
+}
+@media screen and (max-width:1238px){
+    .acercademi{
+        height: 89em;
+    }
+}
+@media screen and (max-width:1210px){
+    .presentacion{
+        height: 440px;
+    }
+    .cuadroacercademi{
+        height: 12%;
+    }
+}
+@media screen and (max-width:1204px){
+    .acercademi{
+        height: 96em;
+    }
+}
+@media screen and (max-width:1146px){
+    .acercademi{
+        height: 102em;
+    }
+}
+@media screen and (max-width:1110px){
+    .presentacion{
+        height: 400px;
+    }
+}
+@media screen and (max-width:1093px){
+    .acercademi{
+        height: 106em;
+    }
+}
+@media screen and (max-width:1041px){
+    .acercademi{
+        height: 111em;
+    }
+}
+@media screen and (max-width:1010px){
+    .presentacion{
+        height: 380px;
+    }
+}
+@media screen and (max-width:988px){
+    .acercademi{
+        height: 116em;
+    }
+}
+@media screen and (max-width:952px){
+    .presentacion{
+        height: 340px;
+    }
+    .footer-content p{
+    font-size: 12px;
+    }
+}
+@media screen and (max-width:940px){
+    .acercademi{
+        height: 124em;
+    }
+}
+@media screen and (max-width:899px){
+    .acercademi{
+        height: 130em;
+    }
+    .cuadroacercademi{
+        height: 9%;
+        font-size: 8px;
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width:854px){
+    .acercademi{
+        height: 135em;
+    }
+}
+@media screen and (max-width:844px){
+    .presentacion{
+        height: 320px;
+    }
+}
+@media screen and (max-width:829px){
+    .acercademi{
+        height: 142em;
+    }
+}
+@media screen and (max-width:788px){
+    .presentacion{
+        background-image: url(../img/ACERCADEMI22.jpg);
+        background-position: top;
+        height: 720px;
+        width: 100%;
+    }
+    .cuadronegro{
+        width: 95%;
+    }
+    .acercademi{
+        height: 122em;
+    }
+}
+@media screen and (max-width:764px){
+    .acercademi{
+        height: 128em;
+    }
+}
+
+@media screen and (max-width:745px){
+    .presentacion{
+        height: 680px;
+    }
+}
+@media screen and (max-width:740px){
+    .acercademi{
+        height: 132em;
+    }
+}
+@media screen and (max-width:722px){
+    .presentacion{
+        height: 640px;
+    }
+}
+@media screen and (max-width:711px){
+    .acercademi{
+        height: 136em;
+    }
+}
+@media screen and (max-width:702px){
+    .presentacion{
+        height: 620px;
+    }
+}
+@media screen and (max-width:699px){
+    .acercademi{
+        height: 140em;
+    }
+    .cuadroacercademi{
+        height: 7%;
+        padding: 0;
+    }
+}
+@media screen and (max-width:669px){
+    .acercademi{
+        height: 145em;
+    }
+}
+@media screen and (max-width:660px){
+    .presentacion{
+        height: 585px;
+    }
+}
+@media screen and (max-width:651px){
+    .acercademi{
+        height: 150em;
+    }
+}
+@media screen and (max-width:651px){
+    .acercademi{
+        height: 154em;
+    }
+}
+@media screen and (max-width:624px){
+    .presentacion{
+        height: 570px;
+    }
+}
+@media screen and (max-width:616px){
+    .presentacion{
+        height: 545px;
+    }
+    .acercademi{
+        height: 160em;
+    }
+}
+@media screen and (max-width:598px){
+    .acercademi{
+        height: 165em;
+    }
+    .cuadroacercademi{
+        height: 6%;
+    }
+}
+@media screen and (max-width:588px){
+    .acercademi{
+        height: 172em;
+    }
+}
+@media screen and (max-width:570px){
+    .acercademi{
+        height: 178em;
+    }
+}
+@media screen and (max-width:562px){
+    .presentacion{
+        height: 500px;
+    }
+}
+@media screen and (max-width:556px){
+    .acercademi{
+        height: 180em;
+    }
+    .cuadroacercademi{
+        font-size: 7px;
+        height: 5%;
+    }
+}
+@media screen and (max-width:544px){
+    .acercademi{
+        height: 166em;
+    }
+    .cuadrotext{
+        padding: 1.3em;
+    }
+}
+@media screen and (max-width:530px){
+    .acercademi{
+        height: 170em;
+    }
+    .cuadroacercademi{
+        height: 3%;
+    }
+}
+@media screen and (max-width:516px){
+    .acercademi{
+        height: 178em;
+    }
+    .cuadroacercademi{
+        height: 3%;
+    }
+}
+@media screen and (max-width:510px){
+    .presentacion{
+        height: 450px;
+    }
+}
+@media screen and (max-width:500px){
+    .presentacion{
+        height: 450px;
+    }
+    .acercademi{
+        height: 186em;
+    }
+}
+@media screen and (max-width:482px){
+    .cuadroacercademi{
+        font-size: 5px;
+        height: 3%;
+    }
+}
+@media screen and (max-width:480px){
+    .presentacion{
+        height: 430px;
+    }
+}
+@media screen and (max-width:476px){
+    .acercademi{
+        height: 192em;
+    }
+    .cuadroacercademi{
+        height: 1%;
+    }
+}
+@media screen and (max-width:462px){
+    .presentacion{
+        height: 430px;
+    }
+}
+@media screen and (max-width:458px){
+    .acercademi{
+        height: 200em;
+    }
+}
+@media screen and (max-width:447px){
+    .acercademi{
+        height: 213em;
+    }
+}
+@media screen and (max-width:435px){
+    .presentacion{
+        height: 380px;
+    }
+}
+@media screen and (max-width:426px){
+    .acercademi{
+        height: 220em;
+    }
+}
+@media screen and (max-width:413px){
+    .acercademi{
+        height: 230em;
+    }
+}
+@media screen and (max-width:401px){
+    .acercademi{
+        height: 240em;
+    }
+}
+@media screen and (max-width:391px){
+    .acercademi{
+        height: 250em;
+    }
+}
+@media screen and (max-width:385px){
+    .acercademi{
+        height: 254em;
+    }
+}
+@media screen and (max-width:380px){
+    .presentacion{
+        height: 340px;
+    }
+}
+@media screen and (max-width:373px){
+    .presentacion{
+        height: 360px;
+    }
+    .acercademi{
+        height: 260em;
+    }
+}
+@media screen and (max-width:361px){
+    .presentacion{
+        height: 320px;
+    }
+    .acercademi{
+        height: 280em;
+    }
+}
+@media screen and (max-width:354px){
+    .acercademi{
+        height: 285em;
+    }
+}
+@media screen and (max-width:348px){
+    .acercademi{
+        height: 300em;
+    }
+}
+@media screen and (max-width:336px){
+    .acercademi{
+        height: 320em;
+    }
+}
+@media screen and (max-width:326px){
+    .acercademi{
+        height: 340em;
+    }
+    .cuadroacercademi{
+        font-size: 4px;
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width:330px){
+    .presentacion{
+        height: 300px;
+    }
+}
